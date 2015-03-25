@@ -1,0 +1,31 @@
+#!/bin/sh
+
+# This runs gcc with all warnings enabled, except for the following
+# exceptions:
+#
+# -Wredundant-decls     causes too many complaints in system header files
+# -Wconversion          really only intended to help people using `unprotoize'
+# -Waggregate-return    not useful, IMHO
+# -Wenum-clash          doesn't work with gcc 2.7.x
+#
+# fjh, Tue Oct 29 1996
+
+OPTS="-ansi -pedantic
+      -Wall -Wwrite-strings
+      -Wpointer-arith -Wcast-qual
+      -Wcast-align
+      -Wstrict-prototypes -Wmissing-prototypes
+      -Wnested-externs -Wshadow
+      -Winline
+      -O
+     "
+
+# gcc v3.2 doesn't like them, zs/ling, 29/8/2002
+# -Wid-clash-31
+# -fnonnull-objects
+# gcc v3.3.2 doesn't like them, zs/ling, 12/8/2004
+#  -Wtraditional
+#  -Woverloaded-virtual
+#  -felide-constructors
+
+exec gcc $OPTS "$@"

@@ -1,0 +1,6 @@
+[
+	{ "keys": ["ctrl+shift+a"], "command": "unfold_all" },
+	{ "keys": ["ctrl+shift+s"], "command": "fold_by_level", "args": {"level": 1} },
+	{ "keys": ["ctrl+shift+d"], "command": "fold_by_level", "args": {"level": 2} },
+	{ "keys": ["ctrl+shift+f"], "command": "fold_by_level", "args": {"level": 3} },
+]
