@@ -32,7 +32,7 @@
 	Plugin 'scrooloose/nerdtree' " file tree
 	Plugin 'jistr/vim-nerdtree-tabs'
 	let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
-	Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+	" Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 	" All of your Plugins must be added before the following line
 	call vundle#end()            " required
