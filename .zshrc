@@ -273,6 +273,7 @@
 
 # {{{ place custom configs here
 	alias dc="docker-compose"
+	alias d="docker"
 	export GIT_HOME="$HOME/Desktop/z/git"
 	alias gg="git grep --recurse-submodules"
 # }}}
