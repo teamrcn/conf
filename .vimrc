@@ -17,12 +17,13 @@
 	Plugin 'gmarik/Vundle.vim'
 
 	" Add all your plugins here (note older versions of Vundle used Bundle instead of Plugin)
+	Plugin 'airblade/vim-gitgutter'
 	Plugin 'mechatroner/rainbow_csv'
 	Plugin 'tmhedberg/SimpylFold'
+	let g:SimpylFold_docstring_preview=1
 	Plugin 'tpope/vim-sleuth'       "automagic spaces/tabs
 	Plugin 'davidhalter/jedi-vim'   "vim auto complete
 	Plugin 'ap/vim-css-color'
-	let g:SimpylFold_docstring_preview=1
 	Plugin 'vim-scripts/indentpython.vim'
 	"Bundle 'Valloric/YouCompleteMe'
 	"let g:ycm_autoclose_preview_window_after_completion=1
@@ -39,7 +40,7 @@
 	filetype plugin indent on    " required
 "# }}}
 
-"# {{{ Vim Settings
+"# {{{ Plugin Settings
 	map <C-n> :NERDTreeToggle<CR>
 	"imap <C-n> :NERDTreeToggle<CR>
 	autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif "How can I close vim if the only window left open is a NERDTree?
