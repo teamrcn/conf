@@ -13,3 +13,8 @@ install:
 
 	test -d ~/.vim/bundle/Vundle.vim || git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 	vim +PluginInstall +qall
+	diff -w .gitconfig ~/.gitconfig || true
+	diff -w .gitignore ~/.gitignore || true
+	diff -w .screenrc ~/.screenrc || true
+	diff -w .vimrc ~/.vimrc || true
+	diff -w .zshrc ~/.zshrc || true
