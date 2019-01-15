@@ -262,7 +262,7 @@
 # {{{ Program specific settings
     #export GCC_BOUNDS_OPTS=-no-message
     #    export GREP_OPTIONS="--colour=always  --line-number"
-    alias g="grep --colour=always  --line-number"
+    # alias g="grep --colour=always  --line-number"
     export CLICOLOR=1
     export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
     #    export LESS='-w --clear-screen --force --RAW-CONTROL-CHARS --no-init --quit-if-one-screen --LONG-PROMPT --chop-long-lines --IGNORE-CASE ' 
@@ -275,6 +275,9 @@
 # {{{ place custom configs here
     alias dc="docker-compose"
     alias d="docker"
-    export GIT_HOME="$HOME/Desktop/z/git"
+    alias gd="git diff"
+    alias gdt="git difftool"
     alias gg="git grep --recurse-submodules"
+    alias g="git status"
+    export GIT_HOME="$HOME/Desktop/z/git"
 # }}}
