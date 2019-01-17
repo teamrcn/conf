@@ -60,6 +60,7 @@
     function ...() { c ../..  }
     function ....() { c ../../..  }
     function pycd () { pushd `python -c "import os.path, $1; print(os.path.dirname($1.__file__))"`; }
+    function ip(){ dig +short myip.opendns.com @resolver1.opendns.com; }
 
     alias zzsshmicro='ssh 137.132.80.193 -l deviant'
 # }}}
