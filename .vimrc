@@ -18,7 +18,7 @@
 
     " Add all your plugins here (note older versions of Vundle used Bundle instead of Plugin)
     Plugin 'airblade/vim-gitgutter'
-	Plugin 'will133/vim-dirdiff'
+    Plugin 'will133/vim-dirdiff'
     Plugin 'mechatroner/rainbow_csv'
     Plugin 'tmhedberg/SimpylFold'
     let g:SimpylFold_docstring_preview=1
