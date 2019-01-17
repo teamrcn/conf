@@ -1,0 +1,13 @@
+color "---"			green	default
+color "index "			green	default
+color "diff-tree "		green	default
+color "Merge: "			green	default
+color "parent "			green	default
+color "tree "			green	default
+color date			yellow default
+color grep.file			green	default
+color title-blur		white	green
+color title-focus		white	green	bold
+color help-group		green	default
+color diff-stat			green	default
+color graph-commit		green	default
