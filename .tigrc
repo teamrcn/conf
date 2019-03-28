@@ -4,7 +4,7 @@ color "diff-tree "		green	default
 color "Merge: "			green	default
 color "parent "			green	default
 color "tree "			green	default
-color date			yellow default
+color date			green default
 color grep.file			green	default
 color title-blur		white	green
 color title-focus		white	green	bold
