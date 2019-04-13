@@ -281,4 +281,5 @@
     alias gg="git grep --recurse-submodules"
     alias g="git status"
     export GIT_HOME="$HOME/Desktop/z/git"
+    alias venv="source venv/bin/activate"
 # }}}
