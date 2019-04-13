@@ -7,7 +7,7 @@ install:
 	cp -nv .zshrc ~/
 	cp -nv .tigrc ~/
 	mkdir -p ~/.ssh
-	cp -nv .sshconfig ~/.ssh/config
+	cp -nv config ~/.ssh/config
 
 	mkdir -p ~/.config/sublime-text-3/Packages/User/
 	cp -nv subl/Preferences.sublime-settings       ~/.config/sublime-text-3/Packages/User/
