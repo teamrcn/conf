@@ -280,6 +280,7 @@
     alias gdt="git difftool"
     alias gg="git grep --recurse-submodules"
     alias g="git status"
-    export GIT_HOME="$HOME/Desktop/z/git"
+    export bitbucket="$HOME/z/git/bitbucket.org"
+    export github="$HOME/z/git/github.com"
     alias venv="source venv/bin/activate"
 # }}}
