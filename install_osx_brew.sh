@@ -52,7 +52,7 @@ packages="
   flux
   go2shell
   iterm2
-  itsycal
+  itsycal  # date pattern YYYY.MM.dd E hh:mm:ss
   libreoffice
   monolingual
   spectacle
