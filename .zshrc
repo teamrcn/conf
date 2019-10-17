@@ -276,12 +276,16 @@
 # {{{ place custom configs here
     alias dc="docker-compose"
     alias d="docker"
+
     alias gd="git diff"
     alias gdt="git difftool"
     alias gg="git grep --recurse-submodules"
     alias g="git"
-    alias calc="libreoffice --calc"
+    alias g="git status"
+    alias glog="git log --pretty="%aD,%ae,%s" | grep 'Merged in'"
     export bitbucket="$HOME/z/git/bitbucket.org"
     export github="$HOME/z/git/github.com"
+
     alias venv="source venv/bin/activate"
+    alias calc="libreoffice --calc"
 # }}}
