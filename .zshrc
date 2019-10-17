@@ -86,11 +86,9 @@
                                 #  ls -d /**/*(u:kmccarty:) lists all the files owned by kmccarty 
                                 #  ls -d /**/*(m-10) lists all the files modified within the last 10 days
     ZLS_COLORS=$LS_COLORS
-    compinit
 # }}}
 
 # {{{ zsh autocompletion options
-    autoload -U compinit
     # command for process lists, the local web server details and host completion
     # on processes completion complete all user processes
     zstyle ':completion:*:processes' command 'ps -au$USER'
@@ -120,6 +118,10 @@
     hosts=(${${${(f)"$(<$HOME/.ssh/known_hosts)"}%%\ *}%%,*}) && \
     zstyle ':completion:*:hosts' hosts $hosts
     zstyle '*' single-ignored show
+    zstyle ':completion:*' completer _complete _ignored
+
+    autoload -Uz compinit
+    compinit
 # }}}
 
 # {{{ zsh prompt
@@ -276,11 +278,10 @@
     alias d="docker"
     alias dc="docker-compose"
 
+    alias g="git"
     alias gd="git diff"
     alias gdt="git difftool"
     alias gg="git grep --recurse-submodules"
-    alias g="git"
-    alias g="git status"
     alias glog="git log --pretty="%aD,%ae,%s" | grep 'Merged in'"
     export bitbucket="$HOME/z/git/bitbucket.org"
     export github="$HOME/z/git/github.com"
@@ -290,5 +291,4 @@
 # }}}
 
 # {{{ place custom configs here
-    alias calc="libreoffice --calc"
 # }}}
