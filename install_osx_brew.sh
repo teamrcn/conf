@@ -60,7 +60,7 @@ packages="
   itsycal  # date pattern YYYY.MM.dd E hh:mm:ss
   keepingyouawake
   libreoffice
-  macs-fan-control
+  macs-fan-control  # sensor=CPU PECI 40-70
   monolingual
   pycharm-ce
   signal
