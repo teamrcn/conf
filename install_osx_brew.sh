@@ -46,20 +46,34 @@ done
 
 #=============Brew Cask
 packages="
+  adobe-acrobat-reader
   bitbar
+  brave
   chromium
+  commander-one
   firefox
   flux
   go2shell
+  grandperspective
+  iina
   iterm2
   itsycal  # date pattern YYYY.MM.dd E hh:mm:ss
+  keepingyouawake
   libreoffice
+  macs-fan-control
   monolingual
+  pycharm-ce
+  signal
+  slack
   spectacle
+  sublime-text
+  telegram-desktop
   transmission
   unetbootin
   virtualbox
+  vivaldi
   vlc
+  xnviewmp
 "
 
 brew update
