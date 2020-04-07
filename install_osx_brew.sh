@@ -24,6 +24,7 @@ packages="
   gnu-tar
   gnutls
   libsvg
+  netcat
   nmap
   p7zip
   perl
@@ -31,6 +32,7 @@ packages="
   python3
   ruby
   sox
+  tig
   unrar
   vim
   wget
