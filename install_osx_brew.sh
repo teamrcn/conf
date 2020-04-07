@@ -88,20 +88,8 @@ done
 
 #=============bitbar
 mkdir -p ~/.bitbar
-rm -f ~/.bitbar/worldclock.sh
-cat > ~/.bitbar/worldclock.sh << EOF
-#!/bin/bash
-# Display UTC in the menubar, and one or more additional zones in the drop down.
-# The current format (HH:MM:SS) works best with a one second refresh, or alter
-# the format and refresh rate to taste.
-ZONES="Australia/Sydney Europe/London America/New_York America/Los_Angeles"
-date -u +'%H:%M UTC'
-echo '---'
-for zone in $ZONES; do
-  echo "$(TZ=$zone date +'%H:%M %z') $zone"
-done
-EOF
-chmod a+x ~/.bitbar/worldclock.sh
+cp -f bitbar.worldclock.sh ~/.bitbar
+chmod a+x ~/.bitbar/bitbar.worldclock.sh
 
 
 
