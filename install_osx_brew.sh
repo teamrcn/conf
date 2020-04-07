@@ -48,7 +48,7 @@ done
 packages="
   adobe-acrobat-reader
   bitbar
-  brave
+  brave-browser
   chromium
   commander-one
   firefox
