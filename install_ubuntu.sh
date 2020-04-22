@@ -10,6 +10,7 @@ install_apt () {
   rar unrar p7zip p7zip-full
   youtube-dl
   python-pip python3-pip python-virtualenv
+  geeqie # good image viewer
   "
 
   sudo apt-get install -y $packages

@@ -26,6 +26,7 @@ packages="
   gnu-tar
   gnutls
   libsvg
+  netcat
   nmap
   p7zip
   perl
@@ -33,6 +34,7 @@ packages="
   python3
   ruby
   sox
+  tig
   unrar
   vim
   wget
@@ -48,20 +50,34 @@ done
 
 #=============Brew Cask
 packages="
+  adobe-acrobat-reader
   bitbar
+  brave-browser
   chromium
+  commander-one
   firefox
   flux
   go2shell
+  grandperspective
+  iina
   iterm2
   itsycal  # date pattern YYYY.MM.dd E hh:mm:ss
+  keepingyouawake
   libreoffice
+  macs-fan-control  # sensor=CPU PECI 40-70
   monolingual
+  pycharm-ce
+  signal
+  slack
   spectacle
+  sublime-text
+  telegram-desktop
   transmission
   unetbootin
   virtualbox
+  vivaldi
   vlc
+  xnviewmp
 "
 
 brew update
@@ -74,20 +90,8 @@ done
 
 #=============bitbar
 mkdir -p ~/.bitbar
-rm -f ~/.bitbar/worldclock.sh
-cat > ~/.bitbar/worldclock.sh << EOF
-#!/bin/bash
-# Display UTC in the menubar, and one or more additional zones in the drop down.
-# The current format (HH:MM:SS) works best with a one second refresh, or alter
-# the format and refresh rate to taste.
-ZONES="Australia/Sydney Europe/London America/New_York America/Los_Angeles"
-date -u +'%H:%M UTC'
-echo '---'
-for zone in $ZONES; do
-  echo "$(TZ=$zone date +'%H:%M %z') $zone"
-done
-EOF
-chmod a+x ~/.bitbar/worldclock.sh
+cp -f bitbar.worldclock.sh ~/.bitbar
+chmod a+x ~/.bitbar/bitbar.worldclock.sh
 
 
 
