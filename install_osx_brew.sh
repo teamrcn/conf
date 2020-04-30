@@ -92,6 +92,9 @@ cp -f bitbar.worldclock.sh ~/.bitbar
 chmod a+x ~/.bitbar/bitbar.worldclock.sh
 
 
+#=============sublime
+mkdir -p  "/Users/z/Library/Application Support/com.colliderli.iina/input_conf"
+cp iina_custom.conf "/Users/z/Library/Application Support/com.colliderli.iina/input_conf"
 
 
 #=============sublime
