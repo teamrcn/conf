@@ -10,9 +10,11 @@
 #aircrack-ng
 #homebrew/science/r
 packages="
+  avconv
   coreutils
   curl
   emacs
+  ffmpeg
   findutils
   gawk
   gcc
