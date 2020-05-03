@@ -80,6 +80,8 @@ packages="
   xnviewmp
 "
 
+#Subler  # annotate video subtitles
+
 brew update
 for package in $packages; do
 	echo ------------------------------------------------------------------ $package
