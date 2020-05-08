@@ -1,0 +1,12 @@
+//@version=4
+study("Trendlines", overlay=true)
+
+value1=3.51
+value2=3.32
+
+l1 = line.new(bar_index, value1, bar_index[50], value1, width = 4, extend=extend.right)
+l2 = line.new(bar_index, value2, bar_index[50], value2, width = 4, extend=extend.right)
+line.set_color(l1, color.yellow)
+line.set_color(l2, color.blue)
+line.delete(l1[1])
+
