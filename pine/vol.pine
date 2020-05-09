@@ -1,3 +1,4 @@
 //@version=4
 study("Volume", shorttitle="Volume", overlay=false, format=format.volume)
-plot(series=volume, title="Volume", style=plot.style_columns, color=open > close ? #B03838 : #008060)
+plot(series=volume, title="Volume", style=plot.style_columns, color=open > close ? #ff0066 : #00e600)
+
