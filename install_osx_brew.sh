@@ -103,3 +103,7 @@ cp iina_custom.conf "/Users/z/Library/Application Support/com.colliderli.iina/in
 
 #=============sublime
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+
+
+#=============osx related
+sudo ln -sf /usr/share/zoneinfo/UTC /etc/localtime
