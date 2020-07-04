@@ -120,8 +120,8 @@
     zstyle '*' single-ignored show
     zstyle ':completion:*' completer _complete _ignored
 
-    autoload -Uz compinit
-    compinit
+    #autoload -Uz compinit
+    #compinit
 # }}}
 
 # {{{ zsh prompt
@@ -243,8 +243,6 @@
     bindkey '\e[4~' end-of-line             # end
     bindkey '^A' beginning-of-line       # home
     bindkey '^E' end-of-line       # home
-    bindkey "^[[A" history-beginning-search-backward
-    bindkey "^[[B" history-beginning-search-forward
     #bindkey '^x'    history-beginning-search-backward
     [[ -n "${key[Up]}"      ]]  && bindkey  "${key[Up]}"      history-search-backward
     [[ -n "${key[Down]}"    ]]  && bindkey  "${key[Down]}"    history-search-forward
@@ -260,6 +258,8 @@
     zle -N down-line-or-beginning-search
     bindkey "^[[A" up-line-or-beginning-search # Up
     bindkey "^[[B" down-line-or-beginning-search # Down
+    bindkey "^[[A" history-beginning-search-backward
+    bindkey "^[[B" history-beginning-search-forward
 # }}}
 
 # {{{ Program specific settings
