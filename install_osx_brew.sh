@@ -26,6 +26,7 @@ packages="
   gnu-tar
   gnutls
   libsvg
+  midnight-commander
   netcat
   nmap
   p7zip
@@ -33,6 +34,7 @@ packages="
   python
   python3
   ruby
+  sc-im
   sox
   tig
   unrar
