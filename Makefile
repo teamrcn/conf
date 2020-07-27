@@ -22,3 +22,13 @@ install:
 	diff -w .vimrc ~/.vimrc || true
 	diff -w .zshrc ~/.zshrc || true
 	diff -w .tigrc ~/.tigrc || true
+
+
+.PHONEY: utc
+utc:
+	sudo ln -sf /usr/share/zoneinfo/UTC /etc/localtime
+
+.PHONEY: est
+est:
+	# sudo systemsetup -listtimezones
+	sudo systemsetup -settimezone America/New_York
