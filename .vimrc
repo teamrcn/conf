@@ -23,7 +23,7 @@
     Plugin 'tmhedberg/SimpylFold'
     let g:SimpylFold_docstring_preview=1
     Plugin 'tpope/vim-sleuth'       "automagic spaces/tabs
-    Plugin 'davidhalter/jedi-vim'   "vim auto complete
+    #Plugin 'davidhalter/jedi-vim'   "vim auto complete
     Plugin 'ap/vim-css-color'
     Plugin 'vim-scripts/indentpython.vim'
     "Bundle 'Valloric/YouCompleteMe'
