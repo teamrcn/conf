@@ -29,7 +29,7 @@
     "Bundle 'Valloric/YouCompleteMe'
     "let g:ycm_autoclose_preview_window_after_completion=1
     "map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
-    Plugin 'scrooloose/syntastic' "VIM check your syntax on each save with the syntastic extension:
+    "Plugin 'scrooloose/syntastic' "VIM check your syntax on each save with the syntastic extension:
     Plugin 'nvie/vim-flake8' "Python PEP8 checking
     Plugin 'scrooloose/nerdtree' " file tree
     Plugin 'jistr/vim-nerdtree-tabs'
