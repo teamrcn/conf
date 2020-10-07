@@ -24,6 +24,10 @@ install:
 	diff -w .tigrc ~/.tigrc || true
 
 
+	mkdir -p ~/.vim/syntax
+	cp vim/text.vim ~/.vim/syntax
+
+
 .PHONEY: utc
 utc:
 	sudo ln -sf /usr/share/zoneinfo/UTC /etc/localtime
