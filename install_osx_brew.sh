@@ -53,6 +53,7 @@ done
 #=============Brew Cask
 packages="
   adobe-acrobat-reader
+  # Amphetamine # don't sleep when lid is closed
   bitbar
   brave-browser
   chromium
