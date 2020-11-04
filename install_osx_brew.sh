@@ -43,9 +43,21 @@ packages="
   youtube-dl
   zsh
   zsh-completions
+  zsh-syntax-highlighting 
+  zsh-autosuggestions
 "
 brew update
 for package in $packages; do
+	echo ------------------------------------------------------------------ $package
+	brew install $package
+done
+
+dev_packages="
+  jq
+  tree
+  tldr
+"
+for package in $dev_packages; do
 	echo ------------------------------------------------------------------ $package
 	brew install $package
 done
@@ -91,6 +103,17 @@ for package in $packages; do
 	brew cask install $package
 done
 
+cask_dev_packages="
+  dash
+  postman
+  docker
+  docker-compose
+"
+for package in $cask_dev_packages; do
+	echo ------------------------------------------------------------------ $package
+	brew cask install $package
+done
+
 
 
 #=============bitbar
@@ -109,4 +132,4 @@ ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local
 
 
 #=============osx related
-sudo ln -sf /usr/share/zoneinfo/UTC /etc/localtime
+# sudo ln -sf /usr/share/zoneinfo/UTC /etc/localtime
