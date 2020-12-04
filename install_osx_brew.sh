@@ -14,11 +14,9 @@ packages="
   coreutils
   curl
   emacs
-  ffmpeg
   findutils
   gawk
   gcc
-  gdal
   git
   gnu-getopt
   gnu-indent
