@@ -117,6 +117,10 @@ Desktop.ini
 ._*
 Thumbs.db
 
+
+# junk files
+*.bak
+
 # Files that might appear on external disks
 .Spotlight-V100
 .Trashes
