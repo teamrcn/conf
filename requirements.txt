@@ -1,0 +1,18 @@
+youtube_dl
+
+# visualise CSVs and wikitables 
+# vd input.csv  # 'Shift+F' on any column
+visidata   
+
+# D-Tale for web based interactive data exploration
+# dtale
+
+
+# Finance Plotter, or finplot, is a performant library with a clean api to help you with your backtesting.
+# finplot
+
+
+# Chromecast and  Cast All The Things
+# catt cast "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+# catt  add "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+catt
