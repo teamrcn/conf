@@ -120,8 +120,8 @@
     zstyle '*' single-ignored show
     zstyle ':completion:*' completer _complete _ignored
 
-    #autoload -Uz compinit
-    #compinit
+    autoload -Uz compinit
+    compinit
 # }}}
 
 # {{{ zsh prompt
@@ -258,8 +258,23 @@
     #zle -N down-line-or-beginning-search
     #bindkey "^[[A" up-line-or-beginning-search # Up
     #bindkey "^[[B" down-line-or-beginning-search # Down
-    bindkey "^[[A" history-beginning-search-backward
-    bindkey "^[[B" history-beginning-search-forward
+    #bindkey "^[[A" history-beginning-search-backward
+    #bindkey "^[[B" history-beginning-search-forward
+# }}}
+
+# {{{ OS specific settings
+    case $OSTYPE  in
+    	darwin*)
+            # commands for OS X go here
+    	;;
+    	linux*)
+            # commands for Linux go here
+            alias open="xdg-open"
+            eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+            export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
+            alias python=python3
+    	;;
+    esac
 # }}}
 
 # {{{ Program specific settings
