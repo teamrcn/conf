@@ -4,20 +4,51 @@ install_apt () {
   zsh vim screen tmux
   git tig mc
   curl wget nmap netcat
+  scim
+  ssh
+  youtube-dl
   "
   junk_packages="
   coreutils findutils
   rar unrar p7zip p7zip-full
   youtube-dl
-  python-pip python3-pip python-virtualenv
-  geeqie # good image viewer
+  geeqie 
+  gnome-tweak-tool
+  tlp tlp-rdw
+  ulauncher
+  caffeine
+  "
+  thinkpad_packages="
+  tp-smapi-dkms acpi-call-dkms
+  "
+
+  dev_packages="
+  gcc libpq-dev 
+  python-dev  
+  python3-dev python3-pip python3-venv python3-wheel 
+  firefox-geckodriver
+  "
+  gui_packages="
+  brave
+  vlc
+  pycharm-community
+  slack
+  sublime-text
+  docker
+  dc-manager
+  postman
+  robo3t-snap
   "
 
   sudo apt-get install -y $packages
-  # for package in $packages; do
-  # 	echo ------------------------------------------------------------------ $package
-  # 	sudo apt-get install -y $package
-  # done
+  sudo apt-get install -y $junk_packages
+  sudo apt-get install -y $dev_packages
+  sudo apt-get install -y $thinkpad_packages
+  for package in $gui_packages; do
+    echo ------------------------------------------------------------------ $package
+    sudo snap install --classic $package
+  done
+  pip3 install wheel
 }
 
 install_keyboard () {
@@ -36,5 +67,8 @@ install_keyboard () {
 }
 
 
+sudo add-apt-repository ppa:agornostal/ulauncher
+sudo add-apt-repository ppa:caffeine-developers/ppa
 install_apt
-install_keyboard
+sudo dpkg-reconfigure unattended-upgrades
+snap start docker
