@@ -1,4 +1,3 @@
-youtube_dl
 
 # visualise CSVs and wikitables 
 # vd input.csv  # 'Shift+F' on any column
@@ -12,7 +11,23 @@ visidata
 # finplot
 
 
+
+
+
+
+
+
+
+# ===========================
+# media
+# ===========================
+
 # Chromecast and  Cast All The Things
 # catt cast "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 # catt  add "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 catt
+
+youtube_dl
+
+# ML Music Channel Splitter
+# spleeter
