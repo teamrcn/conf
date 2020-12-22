@@ -17,6 +17,7 @@ install_apt () {
   tlp tlp-rdw
   ulauncher
   caffeine
+  gparted
   "
   thinkpad_packages="
   tp-smapi-dkms acpi-call-dkms
@@ -33,6 +34,8 @@ install_apt () {
   vlc
   pycharm-community
   slack
+  telegram-desktop
+  signal-desktop
   sublime-text
   docker
   dc-manager
