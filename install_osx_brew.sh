@@ -106,6 +106,7 @@ cask_dev_packages="
   postman
   docker
   docker-compose
+  sourcetrail
 "
 for package in $cask_dev_packages; do
 	echo ------------------------------------------------------------------ $package
