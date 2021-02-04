@@ -14,6 +14,7 @@ install_apt () {
   youtube-dl
   geeqie 
   gnome-tweak-tool
+  gnome-shell-extensions
   tlp tlp-rdw
   ulauncher
   caffeine

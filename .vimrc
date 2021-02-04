@@ -201,6 +201,7 @@
     :set errorformat=%A%f:%l:\ %m,%-Z%p^,%-C%.%#
     highlight BadWhitespace ctermbg=red guibg=darkred
     augroup filetypedetect
+        au BufNewFile,BufRead,BufEnter *.log set filetype=text
         au BufNewFile,BufRead,BufEnter *.html set filetype=htmlm4
         au BufNewFile,BufRead,BufEnter *.java :iab sss System.out.println();<esc>hha
         au BufNewFile,BufRead,BufEnter *.java :iab psvm public static void main(String args[])
