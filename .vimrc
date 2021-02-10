@@ -189,6 +189,7 @@
     ":set autoindent
     ":set smartindent
     :filetype plugin indent on
+    set filetype=text  " force default file types including buffers to text so you get syntax highlighting
     :syntax enable
     :set tabstop=4
     ":set expandtab
