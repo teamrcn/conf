@@ -76,3 +76,8 @@ sudo add-apt-repository ppa:caffeine-developers/ppa
 install_apt
 sudo dpkg-reconfigure unattended-upgrades
 snap start docker
+
+
+# fix t480 CPU throttling issue!
+# https://github.com/erpalma/throttled
+# disable ipv6 on grub to fix dns latency issue

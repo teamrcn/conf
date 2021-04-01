@@ -11,6 +11,7 @@
 	[
 		"Vintage"
 	],
+	"theme": "Adaptive.sublime-theme",
 	"index_exclude_patterns": [
 		"*.log",
 		"*.csv",
