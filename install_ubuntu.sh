@@ -7,6 +7,7 @@ install_apt () {
   scim
   ssh
   youtube-dl
+  s-tui
   "
   junk_packages="
   coreutils findutils
@@ -71,8 +72,8 @@ install_keyboard () {
 }
 
 
-sudo add-apt-repository ppa:agornostal/ulauncher
-sudo add-apt-repository ppa:caffeine-developers/ppa
+#jsudo add-apt-repository ppa:agornostal/ulauncher
+#jsudo add-apt-repository ppa:caffeine-developers/ppa
 install_apt
 sudo dpkg-reconfigure unattended-upgrades
 snap start docker
