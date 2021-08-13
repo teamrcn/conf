@@ -327,7 +327,7 @@ bind generic	v	show-version		# Show Tig version
 #
 # Prefix the name of a view to set a color only for that view, e.g.
 #
-#	color grep.file			blue	default
+#	color grep.file			green	default
 #
 # As an example, this setting will to color Signed-off-by lines with a
 # yellow foreground color and use the default background color.
@@ -337,7 +337,7 @@ bind generic	v	show-version		# Show Tig version
 # Note the four leading spaces in the string to match. This is because
 # Git automatically indents commit messages by four spaces.
 
-color "---"			blue	default
+color "---"			green	default
 color "diff --"			yellow	default
 color "--- "			yellow	default
 color "+++ "			yellow	default
@@ -346,7 +346,7 @@ color "+"			green	default
 color " +"			green	default
 color "-"			red	default
 color " -"			red	default
-color "index "			blue	default
+color "index "			green	default
 color "old file mode "		yellow	default
 color "new file mode "		yellow	default
 color "deleted file mode "	yellow	default
@@ -356,12 +356,12 @@ color "rename from "		yellow	default
 color "rename to "		yellow	default
 color "similarity "		yellow	default
 color "dissimilarity "		yellow	default
-color "\ No newline at end of file"	blue	default
-color "diff-tree "		blue	default
+color "\ No newline at end of file"	green	default
+color "diff-tree "		green	default
 color "Author: "		cyan	default
 color "Commit: "		magenta	default
 color "Tagger: "		magenta	default
-color "Merge: "			blue	default
+color "Merge: "			green	default
 color "Date: "			yellow	default
 color "AuthorDate: "		yellow	default
 color "CommitDate: "		yellow	default
@@ -371,8 +371,8 @@ color "Reflog: "		red	default
 color "Reflog message: "	yellow	default
 color "stash@{"			magenta	default
 color "commit "			green	default
-color "parent "			blue	default
-color "tree "			blue	default
+color "parent "			green	default
+color "tree "			green	default
 color "author "			green	default
 color "committer "		magenta	default
 color "    Signed-off-by"	yellow	default
@@ -383,7 +383,7 @@ color default			default	default	normal
 color cursor			white	green	bold
 color status			green	default
 color delimiter			magenta	default
-color date			blue	default
+color date			green	default
 color mode			cyan	default
 color id			magenta	default
 color overflow			red	default
@@ -391,11 +391,11 @@ color header			yellow	default
 color section			cyan	default
 color directory			yellow	default
 color file			default	default
-color grep.file			blue	default
+color grep.file			green	default
 color file-size			default	default
 color line-number		cyan	default
-color title-blur		white	blue
-color title-focus		white	blue	bold
+color title-blur		white	green
+color title-focus		white	green	bold
 color main-commit		default	default
 color main-annotated		default	default	bold
 color main-tag			magenta	default	bold
@@ -409,9 +409,9 @@ color stat-none			default	default
 color stat-staged		magenta	default
 color stat-unstaged		magenta	default
 color stat-untracked		magenta	default
-color help-group		blue	default
+color help-group		green	default
 color help-action		yellow	default
-color diff-stat			blue	default
+color diff-stat			green	default
 color diff-add-highlight	green	default	standout
 color diff-del-highlight	red	default	standout
 color palette-0			magenta	default
@@ -428,7 +428,7 @@ color palette-10		green	default	bold
 color palette-11		default	default	bold
 color palette-12		white	default	bold
 color palette-13		red	default	bold
-color graph-commit		blue	default
+color graph-commit		green	default
 color search-result		black	yellow
 
 # Mappings for colors read from git configuration.
