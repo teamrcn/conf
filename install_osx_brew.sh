@@ -79,7 +79,9 @@ packages="
   libreoffice
   macs-fan-control  # sensor=CPU PECI 40-70
   monolingual
+  monitorcontrol  # control external monitor
   pycharm-ce
+  shottr  # screenshot
   signal
   slack
   spectacle
