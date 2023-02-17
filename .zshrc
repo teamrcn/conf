@@ -307,4 +307,5 @@
 # }}}
 
 # {{{ place custom configs here
+    source ~/.zshrc_custom
 # }}}

@@ -100,7 +100,7 @@ packages="
 brew update
 for package in $packages; do
 	echo ------------------------------------------------------------------ $package
-	brew cask install $package
+	brew install --cask $package
 done
 
 cask_dev_packages="
@@ -112,7 +112,7 @@ cask_dev_packages="
 "
 for package in $cask_dev_packages; do
 	echo ------------------------------------------------------------------ $package
-	brew cask install $package
+	brew install --cask $package
 done
 
 
@@ -124,8 +124,8 @@ chmod a+x ~/.bitbar/bitbar.worldclock.sh
 
 
 #=============sublime
-mkdir -p  "/Users/z/Library/Application Support/com.colliderli.iina/input_conf"
-cp iina_custom.conf "/Users/z/Library/Application Support/com.colliderli.iina/input_conf"
+mkdir -p  "~/Library/Application Support/com.colliderli.iina/input_conf"
+cp iina_custom.conf "~/Library/Application Support/com.colliderli.iina/input_conf"
 
 
 #=============sublime
