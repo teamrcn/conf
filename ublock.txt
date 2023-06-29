@@ -1,16 +1,19 @@
 My Filters:
 tradingview.com##div[class^=toast-positioning-wrapper]
-tradingview.com##div[data-role=toast-container] 
+tradingview.com##div[data-role=toast-container]
 tradingview.com##div[data-role=toast-container]
 tradingview.com##div[data-dialog-name=gopro]
 
 
-||tradingview.com/static/bundles/go-register-dialog*.js
-||tradingview.com/static/bundles/gdpr-notification*.js
-||tradingview.com/static/bundles/donation-notification*.js
-||tradingview.com/static/bundles/cookies-notification*.js
-||tradingview.com/static/bundles/trial-notification*.js
-||tradingview.com/static/bundles/gopro-dialog*.js
+tradingview.com/static/bundles/go-register-dialog.*.js
+||tradingview.com/static/bundles/gdpr-notification.*.js
+||tradingview.com/static/bundles/donation-notification.*.js
+||tradingview.com/static/bundles/cookies-notification.*.js
+||tradingview.com/static/bundles/trial-notification.*.js
+||tradingview.com/static/bundles/gopro-dialog.*.js
+||tradingview.com/static/bundles/go-register-dialog.*.js
+
+
 
 
 My Rules:

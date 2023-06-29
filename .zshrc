@@ -304,6 +304,7 @@
 
     alias venv="source venv/bin/activate"
     alias calc="libreoffice --calc"
+    alias pbjson="pbpaste | jq . | pbcopy"
 # }}}
 
 # {{{ place custom configs here
