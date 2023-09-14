@@ -135,3 +135,6 @@ ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local
 #=============osx related
 # sudo ln -sf /usr/share/zoneinfo/UTC /etc/localtime
 defaults write -g ApplePressAndHoldEnabled -bool false
+
+# disable desktop icons
+defaults write com.apple.finder CreateDesktop false
