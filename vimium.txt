@@ -1,3 +1,5 @@
+unmap <<
+unmap >>
 unmap d
 
 map q goBack
