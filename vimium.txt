@@ -1,16 +1,12 @@
-unmap q
-unmap w
-unmap e
-map q goPrevious
-map w scrollFullPageUp
-map e goNext
-
-unmap a
-unmap s
 unmap d
+
+map q goBack
+map w scrollFullPageUp
+map e goForward
+
 map a previousTab
 map s scrollFullPageDown
 map d nextTab
 
-unmap c
+map z goNext
 map c removeTab
