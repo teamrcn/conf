@@ -52,6 +52,7 @@ msgwait 1 # Set messages timeout to one second:
 shelltitle $HOST  
 
 termcapinfo xterm* ti@:te@ #Using the scrollwheel in GNU screen
+defterm xterm-256color
 # }}}
 
 # {{{ Keyboard Bindings
