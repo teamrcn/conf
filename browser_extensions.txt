@@ -1,0 +1,12 @@
+dark reader
+multi account containers
+startpage
+ublock origin
+
+
+JSONView
+SponsorBlock
+TabCopy
+Tampermonkey
+Vimium
+Video Speed Controller
