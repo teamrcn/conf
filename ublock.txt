@@ -20,3 +20,6 @@ My Rules:
 no-scripting: www.bloomberg.com true
 no-scripting: asia.nikkei.com true
 no-scripting: profit.ly true
+
+
+||redditstatic.com/*/*/*-nsfw-*.js$script
