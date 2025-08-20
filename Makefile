@@ -1,4 +1,4 @@
-sublimedir = "$(HOME)/Library/Application Support/Sublime Text 3/Packages/User"
+sublimedir = "$(HOME)/Library/Application Support/Sublime Text/Packages/User"
 
 .PHONEY: install
 install:
