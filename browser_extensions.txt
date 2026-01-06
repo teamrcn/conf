@@ -23,3 +23,5 @@ map d goForward
 
 map z goNext
 map y copyCurrentUrl
+unmap f
+unmap F
