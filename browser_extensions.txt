@@ -8,5 +8,18 @@ JSONView
 SponsorBlock
 TabCopy
 Tampermonkey
-Vimium
+
 Video Speed Controller
+# Add < and > shortcuts
+
+Vimium
+# Vimium key mappings
+map w scrollPageUp
+map s scrollPageDown
+map q previousTab
+map e nextTab
+map a goBack
+map d goForward
+
+map z goNext
+map y copyCurrentUrl
