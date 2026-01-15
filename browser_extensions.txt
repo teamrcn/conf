@@ -16,10 +16,10 @@ Vimium
 # Vimium key mappings
 map w scrollPageUp
 map s scrollPageDown
-map q previousTab
-map e nextTab
-map a goBack
-map d goForward
+map a previousTab
+map d nextTab
+map q goBack
+map e goForward
 
 map z goNext
 map y copyCurrentUrl
